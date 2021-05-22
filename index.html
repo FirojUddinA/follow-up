@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="fonts/css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <div class="top_heading py-2">
+    <p class="text-center"><b>VALID-STS</b></p>
+  </div>
+  <header>
+    <div class="container bg-primary">
+      <div class="row">
+        <div class="col-12">
+          <p class="text-center">
+            <b>Clinical research Associate<br>Mrs/Miss Claire LANTIER</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="follow_up" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <form name="filtre" class="text-center">
+            <label for="selec_follow_up" class="form-label fw-bold">Multiple files input example</label>
+            
+              <select name="select" class="" id="selec_follow_up">
+                <option value="1" selected="">Overall perspective</option>
+                <option value="2">Distribution by centers/Investigators</option>
+
+                <option value="6">Distribution by countries/centers</option>
+
+                <option value="4">Distribution by stratum group</option>
+
+                <option value="5">Inclusion curve</option>
+              </select>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cases">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <table id="cases_registered" class="table table-bordered table-striped table-hover">
+            <thead class="bg-primary">
+              <tr>
+                <th>
+                  <p>Cases registered :</p>
+                </th>
+                <th>
+                  <p>10</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>Wrongly included</p>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+
+                <td>
+                  <p class="border_left">Yes :</p>
+                </td>
+                <td>
+                  <p>0</p>
+                </td>
+              </tr>
+              <tr>
+
+                <td>
+                  <p class="border_left">No :</p>
+                </td>
+                <td>
+                  <p>10</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p class="invisible">none</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table id="cases_included" class="table table-bordered table-striped table-hover">
+            <thead class="bg-primary">
+              <tr>
+                <th>
+                  <p>Cases included :</p>
+                </th>
+                <th><p>10</p></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>Validated by investigator</p>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="border_left">Yes :</p>
+                </td>
+                <td>
+                  <p>0</p>
+                </td>
+              </tr>
+              <tr>
+
+                <td>
+                  <p class="border_left">No :</p>
+                </td>
+                <td>
+                  <p>10</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p class="invisible">none</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table id="cases_validated" class="table table-bordered table-striped table-hover">
+            <thead class="bg-primary">
+              <tr>
+                <th>
+                  <p>Cases validated by investigators :</p>
+                </th>
+                <th>
+                  <p>10</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>Validated by Monitor</p>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+
+                <td>
+                  <p class="border_left">Yes :</p>
+                </td>
+                <td>
+                  <p>0</p>
+                </td>
+              </tr>
+              <tr>
+
+                <td>
+                  <p class="border_left">No :</p>
+                </td>
+                <td>
+                  <p>10</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p class="invisible">none</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table id="cases_validated_monitor" class="table table-bordered table-striped table-hover">
+            <thead class="bg-primary">
+              <tr>
+                <th colspan="2">
+                  <p>Cases validated by Monitor :</p>
+                </th>                
+              </tr>
+            </thead>
+            <tbody>              
+              <tr>
+                <td colspan="2">
+                  <p class="invisible">none</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table id="distribution_inclusions" class="table table-bordered table-striped table-hover">
+            <thead class="bg-primary">
+              <tr>
+                <th>
+                  <p>Distribution of inclusions</p>
+                </th>                
+                <th >
+                  <ul class="table_multi">
+                    <li>
+                      <p>10</p>
+                    </li>
+                    <li>
+                      <p>10%</p>
+                    </li>
+                  </ul>
+                </th>                
+                             
+              </tr>
+            </thead>
+            <tbody>              
+              <tr>
+                <td colspan="2">
+                  <p class="invisible">none</p>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <p >Distribution by stratum group</p>
+                </td>
+                <td >
+                  <p class="invisible">none</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="border_left">	Groupe d'expérimentation de la sous-cohorte :</p>
+                </td>
+                <td>
+                  <ul class="table_multi">
+                    <li>
+                      <p>10</p>
+                    </li>
+                    <li>
+                      <p>10%</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="border_left">Groupe dispositif expérimenté seul :</p>
+                </td>
+                <td>
+                  <ul class="table_multi">
+                    <li>
+                      <p>10</p>
+                    </li>
+                    <li>
+                      <p>10%</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="border_left">Groupe témoin de la sous-cohorte :</p>
+                </td>
+                <td>
+                  <ul class="table_multi">
+                    <li>
+                      <p>10</p>
+                    </li>
+                    <li>
+                      <p>10%</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="border_left">TEST Max 50 Caractères :</p>
+                </td>
+                <td>
+                  <ul class="table_multi">
+                    <li>
+                      <p>10</p>
+                    </li>
+                    <li>
+                      <p>10%</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table id="inclusion_rate" class=" mt-3 table table-bordered table-striped table-hover">
+            <thead class="bg-primary">
+              <tr>
+                <th colspan="2">
+                  <p>Inclusion rate <span>Satisfactory</span> <a href="#">Inclusion curve</a></p>
+                </th>    
+              </tr>
+            </thead>
+            <tbody>              
+              
+              <tr>
+                <td >
+                  <p >Number of inclusions:</p>
+                </td>
+                <td >
+                  <ul class="table_multi">
+                    <li>
+                      <p>Observed</p>
+                    </li>
+                    <li>
+                      
+                    </li>
+                    <li>
+                      <p>Planned</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="border_left">Per day :</p>
+                </td>
+                <td>
+                  <ul class="table_multi">
+                    <li>
+                      <p>10</p>
+                    </li>
+                    <li>
+                      
+                    </li>
+                    <li>
+                      <p>10%</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="border_left">Per day :</p>
+                </td>
+                <td>
+                  <ul class="table_multi">
+                    <li>
+                      <p>10</p>
+                    </li>
+                    <li>
+                      
+                    </li>
+                    <li>
+                      <p>10%</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p class="invisible">none</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p >Originally planned inclusion end date : <b>20/04/2022</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p >Current anticipated inclusion end date : <b>20/04/2022</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p >Number of additional Investigators required to meet initial deadline : <b>0</b></p>
+                </td>
+              </tr>
+              
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="return" class="text-center py-3 mb-3 ">
+  <a href="#" class="return"><i class="fas fa-angle-double-left"></i> return</a>
+</section>
+
+
+  <script src="./js/propper.js"></script>
+  <script src="./js/bootstrap.bundle.js"></script>
+  <!-- <script src="https://kit.fontawesome.com/dfb0ffe7b0.js" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
